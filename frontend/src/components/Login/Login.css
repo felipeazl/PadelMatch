@@ -1,0 +1,46 @@
+.page__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(3, 62, 140);
+  background: linear-gradient(
+    135deg,
+    rgba(3, 62, 140, 1) 66%,
+    rgba(73, 176, 217, 1) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+}
+.page__container img {
+  width: 20%;
+}
+.login__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-secondary);
+  width: 21vw;
+  height: 30vh;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+.form__control {
+  display: flex;
+  flex-direction: column;
+  width: 17vw;
+}
+.login__label {
+  margin-bottom: 10px;
+  color: white;
+}
+.login__input {
+  height: 4vh;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: var(--border-radius);
+  background-color: var(--grey);
+  border: none;
+  box-shadow: var(--shadow);
+}

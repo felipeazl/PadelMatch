@@ -1,0 +1,15 @@
+.page-tournament__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title_area {
+  display: flex;
+}
+
+.title_area .page-tournament__title {
+  font-size: 2rem;
+  color: white;
+  align-self: flex-end;
+}
